@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Displayfragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorBackgroundFloating">
+
+        <TextView
+            android:id="@+id/registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:text="Student Profile"
+            android:textAllCaps="true"
+            android:textColor="#312878"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/mobno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+        <TextView
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education Details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SSC"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+
+        <TextView
+            android:id="@+id/shchoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/yop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HSC/Diploma"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+
+        <TextView
+            android:id="@+id/dclgname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/dpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/dyop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BE/BTECH"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+
+        <TextView
+            android:id="@+id/gclgname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/gpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/gyop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#312878"
+            android:textSize="30sp"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"/>
+
+        <TextView
+            android:id="@+id/companyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/jobprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_property"
+            android:paddingTop="30sp"
+            android:text=""
+            android:textSize="24sp"
+            android:paddingLeft="20sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
